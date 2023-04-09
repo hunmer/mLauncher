@@ -1,0 +1,104 @@
+{
+  "name": "mCollection",
+  "version": "1.0.1",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "douyin": "chcp 65001 && electron main.js dou",
+    "client": "chcp 65001 && electron .",
+    "server": "cd server && node server.js",
+    "dev": "chcp 65001 && concurrently \"npm run server\" \"node node_modules\\wait-on\\bin\\wait-on http://localhost:41597/ && npm run client\"",
+    "update": "node fileList.js",
+    "pack": "electron-builder --dir",
+    "postinstall": "electron-builder install-app-deps",
+    "dist": "electron-builder",
+    "dist-win": "electron-builder --win --ia32",
+    "dist-win64": "electron-builder --win --x64",
+    "dist-mac": "electron-builder --mac",
+    "dist-linux": "electron-builder --linux"
+  },
+  "repository": "https://github.com/hunmer/mCollection",
+  "keywords": [],
+  "homepage": "./",
+  "author": "hunmer",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "aria2": "^4.1.2",
+    "builder-util": "^23.5.0",
+    "chokidar": "^3.5.3",
+    "concurrently": "^7.4.0",
+    "iconv-lite": "^0.6.3",
+    "ini": "^4.0.0",
+    "request": "^2.88.2",
+    "tree-kill": "^1.2.2"
+  },
+  "build": {
+    "productName": "mCollection",
+    "appId": "com.hunmer.mCollection",
+    "copyright": "hunmer",
+    "asar": false,
+    "files": [
+      "!download",
+      "!downloads",
+      "!database",
+      "!script",
+      "!build",
+      "!cache",
+      "!test",
+      "!.git"
+    ],
+    "includeSubNodeModules": true,
+    "directories": {
+      "output": "build"
+    },
+    "extraFiles": [
+      "./scripts"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "favicon.ico"
+    },
+    "linux": {
+      "icon": "favicon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "favicon.ico"
+    },
+    "dmg": {
+      "title": "Mac程序",
+      "icon": "favicon.ico",
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "window": {
+        "x": 400,
+        "y": 400
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "installerIcon": "favicon.ico"
+    }
+  }
+}
