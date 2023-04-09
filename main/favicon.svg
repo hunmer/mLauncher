@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="26" height="26">
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Ta" x1="11" x2="11" y1="5.723" y2="15.488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Ta)" d="M11,16L11,16c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C16,13.75,13.75,16,11,16z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Tb" x1="24" x2="24" y1="5.723" y2="15.488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Tb)" d="M24,16L24,16c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C29,13.75,26.75,16,24,16z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Tc" x1="37" x2="37" y1="5.723" y2="15.488" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Tc)" d="M37,16L37,16c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C42,13.75,39.75,16,37,16z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Td" x1="11" x2="11" y1="18.745" y2="28.108" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Td)" d="M11,29L11,29c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C16,26.75,13.75,29,11,29z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Te" x1="24" x2="24" y1="18.745" y2="28.108" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Te)" d="M24,29L24,29c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C29,26.75,26.75,29,24,29z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Tf" x1="37" x2="37" y1="18.745" y2="28.108" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Tf)" d="M37,29L37,29c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C42,26.75,39.75,29,37,29z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Tg" x1="11" x2="11" y1="32.362" y2="41.385" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Tg)" d="M11,42L11,42c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C16,39.75,13.75,42,11,42z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Th" x1="24" x2="24" y1="32.362" y2="41.385" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Th)" d="M24,42L24,42c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C29,39.75,26.75,42,24,42z" />
+  <linearGradient id="XTy~~kO2E4qcSb_rJ9H_Ti" x1="37" x2="37" y1="32.362" y2="41.385" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#32bdef" />
+    <stop offset="1" stop-color="#1ea2e4" />
+  </linearGradient>
+  <path fill="url(#XTy~~kO2E4qcSb_rJ9H_Ti)" d="M37,42L37,42c-2.75,0-5-2.25-5-5v0c0-2.75,2.25-5,5-5h0c2.75,0,5,2.25,5,5v0C42,39.75,39.75,42,37,42z" />
+</svg>
